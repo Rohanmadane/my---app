@@ -80,7 +80,7 @@ except Exception as e:
 
 try:
 
-    model_path = r"C:\Users\Admin\New folder\drug_likeness_model.pkl"
+    model_path = "drug_likeness_model.pkl"
 
     model = joblib.load(model_path)
 
