@@ -1,4 +1,9 @@
 streamlit
+requests
 py3Dmol
 stmol
+rdkit
+pandas
+joblib
+admet-ai
 ipython_genutils
