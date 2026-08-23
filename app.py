@@ -7,6 +7,10 @@ from rdkit.Chem import AllChem, Descriptors, Draw
 from rdkit.Chem import rdMolDescriptors
 import pandas as pd
 import joblib
+import torch
+import argparse
+
+torch.serialization.add_safe_globals([argparse.Namespace])
 from admet_ai import ADMETModel
 
 
