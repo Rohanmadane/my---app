@@ -2,7 +2,7 @@ streamlit
 requests
 py3Dmol
 stmol
-rdkit==2024.3.5
+rdkit==2025.3.5
 pandas
 joblib
 admet-ai
